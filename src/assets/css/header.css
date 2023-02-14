@@ -1,0 +1,25 @@
+header{
+  padding: 16px 0;
+}
+.main-header .container{
+  display: flex;
+  justify-content: space-between;
+}
+ul li{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px;
+}
+ul li a{
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}
+ul li:hover{
+  border-bottom: 2px solid var(--main-color);
+}
+
+ul li:hover a{
+  font-weight: 700;
+}

@@ -6,15 +6,13 @@ export default function Nav() {
     <nav>
         <ul>
             <li>
-                <a href='/home'>Home</a>
-                <a href='/about'>About</a>
-                <a href='/menu'>Menu</a>
-                <a href='/reservation'>Reservation</a>
-                <a href='/order-online'>Order Online</a>
-                <a href='/login'>Login</a>
-
-            {/* <Link to={'/home'}>Home</Link> */}
+                <a href='/home'>Home</a>{/* <Link to={'/home'}>Home</Link> */}
             </li>
+            <li><a href='/about'>About</a></li>
+            <li><a href='/menu'>Menu</a></li>
+            <li><a href='/reservation'>Reservation</a></li>
+            <li><a href='/order-online'>Order Online</a></li>
+            <li><a href='/login'>Login</a></li>
         </ul>
     </nav>
   )

@@ -1,0 +1,44 @@
+.highlights{
+    margin-top: 50px;
+}
+.highlights header{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.highlights header h3{
+    color: black;
+    font-size: 2em;
+}
+.highlights .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.highlights .content .card{
+    width: 30%;
+    box-shadow: 1px 1px 1px #ddd;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+}
+.highlights .content .card img{
+    width: 100%;
+    height: 200px;
+}
+
+.highlights .content .card .card-header,.highlights .content .card .description, .highlights .content .card .footer{
+    padding: 16px;
+}
+.highlights .content .card .card-header{
+    display: flex;
+    justify-content: space-between
+}
+.highlights .content .card .card-header span{
+    color: red;
+}
+.highlights .content .card .description p{
+    color: rgb(68, 66, 66);
+}
+.highlights .content .card .footer p{
+    color: #000;
+}

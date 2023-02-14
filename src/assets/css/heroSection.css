@@ -1,0 +1,38 @@
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-color);
+    padding: 20px 0;
+}
+.heroSection .container{
+    display: flex;
+    justify-content: space-between;
+}
+.textPart{
+    margin-right: 50px;
+    width: 30%;
+}
+h1{
+    color: var(--secondary-color);
+    font-size: 2em;
+}
+h3,p,button{
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h3{
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+.heroSection img{
+    width: 30%;
+    margin-left: 50px;
+    height: 280px;
+    overflow: hidden;
+    margin-bottom: -20%;
+    border-radius: 2%;
+    display: flex;
+    justify-content: end;
+}

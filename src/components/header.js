@@ -1,15 +1,17 @@
-import React from 'react'
-import Nav from './nav'
-import logo from '../assets/images/Logo.svg'
+import React from "react";
+import Nav from "./nav";
+import logo from "../assets/images/Logo.svg";
+import '../assets/css/header.css'
 
 function Header() {
   return (
-    <header>
+    <header className="main-header">
+      <div className="container">
         <img src={logo} alt="Logo" />
-        <h1>header</h1>
         <Nav></Nav>
+      </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

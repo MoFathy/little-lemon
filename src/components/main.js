@@ -1,7 +1,12 @@
 import React from 'react'
+import HeroSection from './heroSection';
+import Highlights from './highlights';
 
 export default function Main() {
   return (
-    <main>Main</main>
+    <main>
+      <HeroSection></HeroSection>
+      <Highlights></Highlights>
+    </main>
   )
 }

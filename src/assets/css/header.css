@@ -20,6 +20,7 @@ ul li:hover{
   border-bottom: 2px solid var(--main-color);
 }
 
-ul li:hover a{
+ul li:hover a,ul li a.active{
   font-weight: 700;
+  color: var(--main-color);
 }

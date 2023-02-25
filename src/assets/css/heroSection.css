@@ -34,5 +34,5 @@ h3{
     margin-bottom: -20%;
     border-radius: 2%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }

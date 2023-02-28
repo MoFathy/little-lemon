@@ -12,8 +12,9 @@ test('Renders the BookingForm heading', () => {
 describe('updateTimes function test', () => {
   test('should return an array', () => {
     // Call the function and store the result
+    Object.defineProperty(window, 'fetchAPI', { value: () => Promise.resolve([]) });
     const state = ["17:00","18:00"];
-    const result = updateTimes(state,{ type: 'dateChange',payload:  "saturday"});
+    const result = updateTimes(state,{ type: 'initializeTimes',payload:  state});
 
     // Use the Array.isArray method to check if the result is an array
     expect(Array.isArray(result)).toBe(true);

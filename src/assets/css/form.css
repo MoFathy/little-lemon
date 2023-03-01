@@ -1,0 +1,12 @@
+.error{
+    color: red;
+    font-size: .8em;
+}
+input, select{
+    padding: 8px;
+    display: block;
+}
+h1{
+margin-top: 20px;
+margin-bottom: 20px;
+}

@@ -3,7 +3,7 @@ import '../assets/css/button.css';
 
 const Button = props => {
   return (
-    <button onClick={props.onClick}>{props.children}</button>
+    <button aria-label="On Click">{props.children}</button>
   )
 }
 

@@ -1,4 +1,4 @@
-import { Route, Routes,BrowserRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import ConfirmedBooking from './pages/ConfirmedBooking';
 import Home from './pages/Home';
@@ -8,7 +8,7 @@ import {Reservation} from './pages/Reservation';
 
 function App() {
   return (
-      <BrowserRouter>
+      // <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
@@ -16,7 +16,7 @@ function App() {
           <Route path="*" element={<NoMatch />} />
           <Route path="/reservation" element={<Reservation />} />
         </Routes>
-      </BrowserRouter>
+      // </BrowserRouter>
   );
 }
 export default App;

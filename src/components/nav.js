@@ -3,14 +3,12 @@ import { NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <nav>
-        <ul>
-            <li><NavLink to='/'>Home</NavLink></li>
-            <li><NavLink to='/menu'>Menu</NavLink></li>
-            <li><a href='/reservation'>Reservation</a></li>
-            <li><a href='/order-online'>Order Online</a></li>
-            <li><a href='/login'>Login</a></li>
-        </ul>
+    <nav className="nav-links">
+      <NavLink to='/'>Home </NavLink>
+      <NavLink to='/menu'>Menu</NavLink>
+      <NavLink to='/reservation'>Reservation</NavLink>
+      <a href='/order-online'>Order Online</a>
+      <a href='/login'>Login</a>
     </nav>
   )
 }

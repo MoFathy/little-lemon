@@ -42,3 +42,20 @@
 .highlights .content .card .footer p{
     color: #000;
 }
+
+@media(max-width: 600px){
+    .highlights{
+        margin-top: 20px;
+    }
+    .highlights header h3 {
+        color: black;
+        font-size: 1.2em;
+    }
+    .highlights .content {
+        display: block;
+    }
+    .highlights .content .card {
+        width: 80%;
+        margin: 10px auto;
+    }
+}

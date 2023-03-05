@@ -36,3 +36,13 @@ h3{
     display: flex;
     justify-content: flex-end;
 }
+
+@media (max-width: 600px){
+    .heroSection img{
+        display: none;
+    }
+    .heroSection .textPart {
+        margin-right: 50px;
+        width: 100%;
+    }
+}
